@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oguzhan-portfolio/static/css/main.c5b749ad.css",
+    "main.js": "/oguzhan-portfolio/static/js/main.41fa25c0.js",
+    "index.html": "/oguzhan-portfolio/index.html",
+    "main.c5b749ad.css.map": "/oguzhan-portfolio/static/css/main.c5b749ad.css.map",
+    "main.41fa25c0.js.map": "/oguzhan-portfolio/static/js/main.41fa25c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b749ad.css",
+    "static/js/main.41fa25c0.js"
+  ]
+}
