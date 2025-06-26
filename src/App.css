@@ -1,0 +1,209 @@
+/* Genel Body ve Font Ayarları */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Linkler */
+a {
+  color: #0dcaf0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover, a:focus {
+  color: #38b6ff;
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f2937 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  transition: background-color 0.4s ease;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #0dcaf0 !important;
+  letter-spacing: 1.5px;
+}
+.navbar .nav-link {
+  color: #cbd5e1 !important;
+  font-weight: 600;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: #38b6ff !important;
+}
+
+/* Hero Bölümü */
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  padding: 120px 15px 100px;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.hero-section p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+  opacity: 0.85;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-section .btn-outline-light {
+  font-weight: 700;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.hero-section .btn-outline-light:hover {
+  background-color: #fff;
+  color: #6610f2;
+  border-color: #fff;
+  box-shadow: 0 0 15px #6610f2aa;
+}
+
+/* Hakkımda & İletişim Bölümleri */
+#about, #contact {
+  background-color: #1e293b;
+  padding: 80px 15px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+}
+#about h2, #contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #0dcaf0;
+  letter-spacing: 1.2px;
+  font-size: 2rem;
+}
+#about p, #contact p {
+  font-size: 1.15rem;
+  color: #cbd5e1;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 15px;
+}
+
+/* Projeler Bölümü */
+#projects {
+  background-color: #111827;
+  padding: 80px 15px;
+  border-radius: 12px;
+  max-width: 1100px;
+  margin: 40px auto 80px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+}
+#projects h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #0dcaf0;
+  letter-spacing: 1.2px;
+  font-size: 2.2rem;
+}
+
+/* Proje Kartları */
+.project-card {
+  background-color: #222;
+  border-radius: 15px;
+  border: none !important;
+  padding: 25px 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  color: #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.8);
+}
+.project-card .card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #0dcaf0;
+}
+.project-card .card-text {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+.project-card .btn-outline-light {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 10px 28px;
+  transition: all 0.3s ease;
+}
+.project-card .btn-outline-light:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+  box-shadow: 0 0 15px #0d6efdaa;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 15px 10px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  user-select: none;
+  border-top: 1px solid #222;
+  margin-top: 60px;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 992px) {
+  .hero-section h1 {
+    font-size: 2.8rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  #projects {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+  #about, #contact {
+    padding: 40px 15px;
+    max-width: 95%;
+  }
+  #projects {
+    padding: 40px 15px;
+    max-width: 95%;
+  }
+  .project-card {
+    padding: 20px 15px;
+  }
+}
