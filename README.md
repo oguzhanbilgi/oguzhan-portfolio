@@ -1,27 +1,60 @@
-# Oğuzhan Bilgi — Portfolio Redesign
+# Oğuzhan Bilgi — Software Developer Portfolio
 
-A recruiter-focused static portfolio for GitHub Pages. No build step is required.
+Personal portfolio website for **Oğuzhan Bilgi**, a Computer Programming graduate and Technical Engineer transitioning into software development roles.
 
-## Files
+🌐 **Live site:** https://oguzhanbilgi.github.io/oguzhan-portfolio/
 
-- `index.html` — semantic one-page portfolio + bilingual content
-- `styles.css` — responsive visual system and motion-safe layouts
-- `app.js` — Anime.js choreography, language toggle, reveals, tilt, navigation state
-- `assets/cv/` — current Turkish and English ATS CVs
-- `assets/oguzhan-mark.svg` — favicon / monogram
+## What the portfolio includes
 
-## Deploy to GitHub Pages
+- Professional summary and career direction
+- Technical Engineering experience
+- Huidu engineering training completed in China
+- Featured software projects
+- Java / Spring Boot / REST API work
+- Flutter mobile development
+- Unity / C# game development
+- QA and testing projects
+- Turkish / English language switch
+- Turkish and English ATS-friendly CVs
 
-This package is designed to be copied directly to the root of the `gh-pages` branch of `oguzhanbilgi/oguzhan-portfolio`.
+## Featured projects
 
-1. Back up the current branch.
-2. Replace the current compiled CRA output with the files in this folder.
-3. Commit and push to `gh-pages`.
-4. GitHub Pages should serve `index.html` directly at:
-   `https://oguzhanbilgi.github.io/oguzhan-portfolio/`
+- **Bismillah** — Flutter mobile application with local-first flows, Quran/prayer features and automated testing
+- **HR Management System** — Java, Spring Boot, React, JWT and relational database project
+- **Restaurant Reservation System** — Spring Boot backend + React frontend
+- **Film Library** — Spring Boot, React/TypeScript and TMDB API integration
+- **WeddingWrecked** — Unity/C# first-person physics prototype
 
-No npm install or build is required. Anime.js is loaded from jsDelivr; all core content remains usable if the CDN animation script fails.
+## Site stack
 
-## Content notes
+- Semantic HTML
+- CSS
+- Vanilla JavaScript
+- Anime.js for motion and interaction
+- GitHub Pages
 
-The portfolio intentionally presents AI-assisted development transparently: AI is described as an accelerator while ownership remains on requirements, integration, debugging, validation, documentation and delivery.
+The website is intentionally build-free and can be served directly from the `gh-pages` branch.
+
+## AI-assisted development
+
+The portfolio describes AI-assisted development transparently. AI tools are used to speed up planning, implementation, debugging, testing and documentation, while project requirements, integration, validation and delivery remain part of my own development workflow.
+
+## Local preview
+
+Clone the repository and open `index.html` directly, or use any simple local web server.
+
+```bash
+git clone https://github.com/oguzhanbilgi/oguzhan-portfolio.git
+cd oguzhan-portfolio
+```
+
+## Contact
+
+- **Portfolio:** https://oguzhanbilgi.github.io/oguzhan-portfolio/
+- **GitHub:** https://github.com/oguzhanbilgi
+- **LinkedIn:** https://www.linkedin.com/in/oguzhanbilgi3/
+- **Email:** oguzhan-bilgi@hotmail.com
+
+## Author
+
+**Oğuzhan Bilgi** — Junior Software Developer / Technical Engineer, Istanbul, Türkiye.
